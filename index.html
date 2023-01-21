@@ -13,38 +13,45 @@
     <!-- header section carousal-->
     <header>
       <div class="container mb-5">
-        <nav class="navbar navbar-expand-lg navbar-light bg-white">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Shop</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">News</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link btn btn-info" href="#">Login</a>
-              </li>
-            </ul>
+        <nav class="navbar navbar-expand-lg bg-white py-3">
+          <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="#">
+              <h2>BikerS Garage</h2>
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item ms-3">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item ms-3">
+                  <a class="nav-link" href="#">Shop</a>
+                </li>
+                <li class="nav-item ms-3">
+                  <a class="nav-link" href="#">News</a>
+                </li>
+                <li class="nav-item ms-3">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item ms-3">
+                  <a class="nav-link btn btn-danger px-3 fw-bold" href="#"
+                    >Login</a
+                  >
+                </li>
+              </ul>
+            </div>
           </div>
         </nav>
 
@@ -169,17 +176,66 @@
 
     <!-- Fetured Bikes In This Year section -->
     <section>
-      <div class="container mb-5">
-        <h2>Fetured Bikes In This Year</h2>
+      <div class="container my-5 py-5">
+        <h2 class="text-center">Fetured Bikes In This Year</h2>
+        <p class="text-danger text-center">Best bike collection</p>
 
-        <div class="row">
-          <div class="col col md-4">hello</div>
-          <div class="col col md-4">hello</div>
-          <div class="col col md-4">hello</div>
+        <div class="row justify-content-center">
+          <div class="col-md-4">
+            <img class="img-fluid" src="./images/bike-5.png" alt="" />
+          </div>
+          <div class="col-md-4">
+            <img class="img-fluid" src="./images/bike-5.png" alt="" />
+          </div>
+          <div class="col-md-4">
+            <img class="img-fluid" src="./images/bike-5.png" alt="" />
+          </div>
         </div>
       </div>
     </section>
 
+    <!-- Latest News section -->
+    <section>
+      <div class="container my-5 py-5">
+        <h2 class="text-center">Latest News</h2>
+
+        <div class="row">
+          <div class="col-md-4">
+            <div class="m-3 shadow rounded p-3">
+              <img class="img-fluid mb-3" src="./images/bike-1.png" alt="" />
+              <h3>Ducati XDIAVEL S-73</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                fermentum amet faucibus sed id nisi lectus at.
+              </p>
+              <button class="btn btn-danger">Read More</button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="m-3 shadow rounded p-3">
+              <img class="img-fluid mb-3" src="./images/bike-1.png" alt="" />
+              <h3>Ducati XDIAVEL S-73</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                fermentum amet faucibus sed id nisi lectus at.
+              </p>
+              <button class="btn btn-danger">Read More</button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="m-3 shadow rounded p-3">
+              <img class="img-fluid mb-3" src="./images/bike-1.png" alt="" />
+              <h3>Ducati XDIAVEL S-73</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                fermentum amet faucibus sed id nisi lectus at.
+              </p>
+              <button class="btn btn-danger">Read More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- bootstrap js link -->
     <script src="./js/bootstrap.min.js"></script>
   </body>
